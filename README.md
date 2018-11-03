@@ -67,3 +67,8 @@ private void btnCekMouseClicked(java.awt.event.MouseEvent evt) {
         }
     }
 
+=================================================
+SOAL 3
+
+SELECT product.id,product.name,product_categories.name as category FROM product
+INNER JOIN product_categories ON product.category_id = product_categories.id;
